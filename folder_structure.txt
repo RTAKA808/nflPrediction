@@ -1,0 +1,43 @@
+nfl-prediction-app/
+├── client/
+│   ├── public/
+│   └── src/
+│       ├── components/
+│       │   ├── Dashboard/
+│       │   ├── Games/
+│       │   ├── Predictions/
+│       │   └── Stats/
+│       ├── services/
+│       └── utils/
+│
+├── server/
+│   ├── config/
+│   │   └── db.js
+│   ├── controllers/
+│   │   ├── gameController.js
+│   │   ├── statsController.js
+│   │   └── predictionController.js
+│   ├── middleware/
+│   │   └── auth.js
+│   ├── models/
+│   │   ├── Game.js
+│   │   ├── Team.js
+│   │   └── Prediction.js
+│   ├── routes/
+│   │   ├── games.js
+│   │   ├── stats.js
+│   │   └── predictions.js
+│   ├── services/
+│   │   ├── oddsService.js
+│   │   ├── statsService.js
+│   │   └── predictionService.js
+│   ├── utils/
+│   └── server.js
+│
+├── data/
+│   ├── scrapers/
+│   └── analysis/
+│
+├── .env
+├── package.json
+└── README.md 
